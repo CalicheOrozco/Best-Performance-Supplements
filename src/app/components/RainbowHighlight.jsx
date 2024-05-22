@@ -12,6 +12,7 @@ export const RainbowHighlight = ({ color, children }) => {
       animationDuration={animationDuration}
       strokeWidth={5}
       color={color}
+      className='RoughNotation'
     >
       {children}
     </RoughNotation>

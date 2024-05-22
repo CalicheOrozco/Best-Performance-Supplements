@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Hero () {
   const colors = ['#20C997', '#FF8C42', '#17A2B8', '#6F42C1']
   return (
-    <div className='flex flex-col md:flex-row justify-around items-center w-full'>
+    <div className='flex flex-col md:flex-row justify-center items-center w-full pb-4'>
       {/* Image container */}
       <div>
         <div className='relative w-3/4 mx-auto'>

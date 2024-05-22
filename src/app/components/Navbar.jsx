@@ -122,7 +122,7 @@ function Navbar () {
         </div>
       </div>
       <div className='flex gap-x-4 justify-around items-center text-center lg:hidden mt-4 font-semibold'>
-        <Link href=''>
+        <Link href='/'>
           <span
             className={
               pathname === '/'
